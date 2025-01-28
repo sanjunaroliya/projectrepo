@@ -72,4 +72,16 @@
 			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <url>http://3.80.123.122:8080/sonarqube-webhook/</url>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <url>http://54.88.46.59:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
